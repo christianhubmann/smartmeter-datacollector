@@ -1,0 +1,8 @@
+services:
+  smartmeter-datacollector:
+    container_name: smartmeter-datacollector
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./datacollector.ini:/app/datacollector.ini
+      

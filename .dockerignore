@@ -1,3 +1,5 @@
 # Changing the Dockerfile causes docker build to invalidate the cache, so ignore the file.
 Dockerfile
-.Dockerfile.swp
+docker-compose.yml
+*.swp
+
